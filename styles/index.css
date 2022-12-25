@@ -77,9 +77,18 @@ p {
     margin:  18px 10px 0;
 }
 
-.img {
-    margin: 11px 6px;
-    display: inline-block;
-    background: rgba(0, 0, 0, 0.09);
-}
 
+.img {
+
+    padding: 1px 7px;
+    max-height: 14px;
+    margin: 11px 6px 10px;
+    display: inline-block;
+    height: 100%;
+    background: #F5F5F5;
+}
+.svg {
+    padding: 0 8px;
+
+
+}
