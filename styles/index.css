@@ -5,12 +5,6 @@
     text-align: center;
 }
 
-.main {
-    width: 940px;
-    height: 478px;
-    left: 250px;
-    margin: 0 auto;
-}
 
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -82,12 +76,10 @@ p {
 .img {
     padding: 1px 7px;
     max-height: 14px;
-    margin: 11px 6px 10px;
+    margin: 0 3px;
     display: inline-block;
     height: 100%;
     background: #F5F5F5;
 }
 
-.svg {
-    padding: 0 8px;
-}
+
