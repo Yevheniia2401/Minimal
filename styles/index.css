@@ -1,38 +1,159 @@
 /*main-block*/
+
 .container {
-    max-width: 1800px;
+    max-width: 940px;
     margin: 0 auto;
-    text-align: center;
+
 }
 
+header {
+    padding: 18px 0;
+}
+header .d-flex {
+    justify-content: space-between;
+    align-items: center;
 
-h1 {
+}
+.logo-img {
+    width: 155px;
+    height: 70px;
+    display: inline-block;
+}
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+.nav-links {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 20px;
+    color: #404040;
+    display: flex;
+}
+.nav-links a {
+    padding: 4px 17px;
+}
+.slogan {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.81);
+}
+/*header end*/
+
+.section-1 {
+    background: center / cover url("/image/background.jpg") no-repeat ;
+    padding: 105px 0 101px;
+    text-align: center;
+    position: relative;
+}
+
+.section-1 h1 {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.desc-1 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.81);
+}
+.border {
+    margin: 28px auto 25px;
+    height: 2px;
+    width: 80px;
+    background: #FFFFFF;
+}
+.close-icon {
+    position: absolute;
+    display: block;
+    width: 52px;
+    height: 52px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -26px;
+}
+/*end section 1*/
+/*section 2*/
+.container-1 {
+    display: block;
+    padding: 60px 250px 40px;
+    height: 289px;
+    background: #FEFEC9;
+
+}
+.text-block {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #47474F;
+}
+h4 {
+    font-family: 'Vollkorn', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #47474F;
+}
+.frame {
+    margin: 40px auto 60px;
+    width: 159px;
+    height: 53px;
+
+
+}
+.btn {
+    padding: 13px 34px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #47474F;
+    background: #FEFEC9;
+    border: 1px solid #47474F;
+    border-bottom: 2px solid;
+}
+/*end section 2*/
+/*section3*/
+.icon {
+    background: #F5F5F5;
+    padding: 50px 86px;
+    text-align: center;
+
+}
+h2 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
     line-height: 36px;
-    margin: 10px 405px 28px;
+    margin: 80px auto 28px;
     text-align: center;
     text-transform: uppercase;
     color: #333333;
 }
 
-#rectangle {
+.line {
     width: 80px;
     height: 2px;
     display: block;
-    margin: 28px auto;
+    margin: 28px auto 43px;
     text-align: center;
     color: rgba(0, 0, 0, 0.09);
     background: rgba(0, 0, 0, 0.09);
 }
 
-.block {
-    width: 960px;
-    height: 339px;
-    margin: 119px 0 20px;
-}
+
 
 /*card*/
 .card {
@@ -40,11 +161,31 @@ h1 {
     height: 339px;
     text-align: center;
     display: inline-block;
-    margin: 15px;
+    margin: 21px -4px 10px;
+}
+.card-1 {
+    width: 320px;
+    height: 368px;
+    display: inline-block;
+    text-align: center;
+    margin: 43px -5px 70px;
+
 }
 
+
+.photo {
+    padding: 0  10px;
+    width: 220px;
+    margin-bottom: 10px;
+}
+
+.text-1 {
+    margin: 38px auto 20px;
+}
+.text {
+    padding: 0 35px 10px;
+}
 h3 {
-    padding: 20px 54px 6px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -55,7 +196,7 @@ h3 {
     color: #333333;
 }
 
-p {
+.desc {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -67,9 +208,18 @@ p {
     color: #333333;
 }
 
+.desc-1 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+    padding: 10px 12px 8px;
+}
+
 /*footer*/
 .footer {
-    margin: 18px 10px 0;
+    margin: 18px 5px 0;
     display: inline-flex;
 }
 
