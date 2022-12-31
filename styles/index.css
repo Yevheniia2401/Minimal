@@ -5,6 +5,7 @@
     margin: 0 auto;
 
 }
+
 header {
     padding: 18px 0;
 }
@@ -31,6 +32,13 @@ header .d-flex {
 }
 .nav-links a {
     padding: 4px 17px;
+}
+.slogan {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.81);
 }
 /*header end*/
 
@@ -76,13 +84,17 @@ header .d-flex {
 /*section 2*/
 .container-1 {
     display: block;
-    padding: 60px 0;
+    padding: 60px 250px 40px;
     height: 289px;
     background: #FEFEC9;
+
 }
 .text-block {
-
-    justify-content: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #47474F;
 }
 h4 {
     font-family: 'Vollkorn', sans-serif;
@@ -156,18 +168,17 @@ h2 {
     height: 368px;
     display: inline-block;
     text-align: center;
+    margin: 43px -5px 70px;
+
 }
 
 
 .photo {
     padding: 0  10px;
     width: 220px;
-
     margin-bottom: 10px;
 }
-.frame-1 {
 
-}
 .text-1 {
     margin: 38px auto 20px;
 }
@@ -203,6 +214,7 @@ h3 {
     line-height: 22px;
     text-align: center;
     color: #333333;
+    padding: 10px 12px 8px;
 }
 
 /*footer*/
