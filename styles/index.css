@@ -43,7 +43,7 @@ header .d-flex {
 /*header end*/
 
 .section-1 {
-    background: center / cover url("/image/background.jpg") no-repeat ;
+    background: center / cover url("../image/background.jpg") no-repeat ;
     padding: 105px 0 101px;
     text-align: center;
     position: relative;
